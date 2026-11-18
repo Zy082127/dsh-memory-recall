@@ -1,0 +1,20 @@
+{
+  "name": "@local/memory-recall",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cross-project memory recall for DSH: read-only SQLite scan of the workspace meow-memory database, silent injection of related history.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "lib/*.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-llm": { "optional": true }
+  }
+}
