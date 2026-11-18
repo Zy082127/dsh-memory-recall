@@ -1,0 +1,4 @@
+# memory-recall bundle patch: one Host row, no config (v0.1 declares no Config).
+- insert:
+    - id: memory-recall
+      name: '@local/memory-recall'
