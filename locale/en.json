@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory Recall",
+    "description": "Recalls related memories from other projects and injects them as background context. Read-only, silent, off by default until self-check passes."
+  }
+}
